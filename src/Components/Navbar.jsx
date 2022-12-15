@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Styles.css";
+<<<<<<< HEAD
 import Logo from "./skin.gif";
 import { FaSearch } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
@@ -8,6 +9,16 @@ import {FaUserCog} from "react-icons/fa"
 const Navbar = () => {
   return (
     <div className="main-div">
+=======
+import Logo from "./logo.jpg";
+import { FaSearch } from "react-icons/fa";
+import { FaCartPlus } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
+
+const Navbar = () => {
+  return (
+    <div>
+>>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
       <div className="first-nav">
         <img className="logo" src={Logo} alt="We Care" />
 
@@ -29,6 +40,7 @@ const Navbar = () => {
           <FaCartPlus className="icon" />
           <p>Cart</p>
         </div>
+<<<<<<< HEAD
         <div className="admin-div">
           <FaUserCog className="icon"/>
           <p>Admin</p>
@@ -44,6 +56,10 @@ const Navbar = () => {
         <p>Bath & Body</p>
         <p></p>
       </div>
+=======
+      </div>
+      <div className="sec-nav"></div>
+>>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
     </div>
   );
 };
