@@ -1,15 +1,83 @@
+<<<<<<< HEAD
+/* ..............first navbar ..............*/
+/*  */
+=======
+>>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
 .first-nav {
   width: 100%;
   height: 90px;
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
+=======
   border-bottom: 1px solid red;
+>>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
 }
 
 .logo {
   width: 6%;
 }
 .search-box {
+<<<<<<< HEAD
+  width: 90%;
+  height: 10px;
+  margin-top: 2px;
+  padding: 13px 90px;
+  outline: none;
+}
+.search,
+.cart,
+.account,
+.admin-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.search-btn {
+  height: 28px;
+}
+.icon {
+  font-size: 27px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+}
+/*................ first navbar .................*/
+
+/*................ second navbar .................*/
+.sec-nav {
+  display: flex;
+  align-items: center;
+  /* margin-left: 90px; */
+  justify-content: space-around;
+  border-bottom: 0.1px solid gray;
+}
+.sec-nav > p:hover {
+  color: rgb(224, 109, 64);
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  font-style: italic;
+  font-size: larger;
+}
+
+/*................ second navbar .................*/
+
+/*................ SLIDER .................*/
+.slider-text {
+  color: rgb(7, 7, 7);
+}
+.slider-text-w {
+  color: white;
+}
+.color-bw {
+  color: white;
+}
+/*................ SLIDER .................*/
+/*................ SkinMedica .................*/
+.imgoff{
+  display: flex;
+}
+/*................ SkinMedica .................*/
+=======
   width: 60%;
   height: 10px;
   margin-top: 2px;
@@ -28,3 +96,4 @@
   font-size: 30px;
   margin-right: 10px;
 }
+>>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
