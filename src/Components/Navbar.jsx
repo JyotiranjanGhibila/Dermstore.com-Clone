@@ -1,6 +1,9 @@
 import React from "react";
 import Styles from "./Styles.css";
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 import Logo from "./skin.gif";
 import { FaSearch } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
@@ -9,6 +12,8 @@ import {FaUserCog} from "react-icons/fa"
 const Navbar = () => {
   return (
     <div className="main-div">
+<<<<<<< HEAD
+=======
 =======
 import Logo from "./logo.jpg";
 import { FaSearch } from "react-icons/fa";
@@ -19,6 +24,7 @@ const Navbar = () => {
   return (
     <div>
 >>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
       <div className="first-nav">
         <img className="logo" src={Logo} alt="We Care" />
 
@@ -41,6 +47,9 @@ const Navbar = () => {
           <p>Cart</p>
         </div>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
         <div className="admin-div">
           <FaUserCog className="icon"/>
           <p>Admin</p>
@@ -56,10 +65,13 @@ const Navbar = () => {
         <p>Bath & Body</p>
         <p></p>
       </div>
+<<<<<<< HEAD
+=======
 =======
       </div>
       <div className="sec-nav"></div>
 >>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
     </div>
   );
 };

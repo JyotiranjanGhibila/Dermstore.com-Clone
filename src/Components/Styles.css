@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 /* ..............first navbar ..............*/
+* {
+  font-family: "Noto Serif", serif;
+}
+=======
+<<<<<<< HEAD
+/* ..............first navbar ..............*/
 /*  */
 =======
 >>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 .first-nav {
   width: 100%;
   height: 90px;
@@ -10,8 +17,11 @@
   justify-content: space-around;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   border-bottom: 1px solid red;
 >>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 }
 
 .logo {
@@ -19,6 +29,9 @@
 }
 .search-box {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
   width: 90%;
   height: 10px;
   margin-top: 2px;
@@ -49,14 +62,25 @@
   align-items: center;
   /* margin-left: 90px; */
   justify-content: space-around;
+<<<<<<< HEAD
+  border-bottom: 0.1px solid black;
+}
+.sec-nav > p:hover {
+  color: black(224, 109, 64);
+=======
   border-bottom: 0.1px solid gray;
 }
 .sec-nav > p:hover {
   color: rgb(224, 109, 64);
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
   cursor: pointer;
   border-bottom: 1px solid grey;
   font-style: italic;
   font-size: larger;
+<<<<<<< HEAD
+  padding-bottom: 20px;
+=======
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 }
 
 /*................ second navbar .................*/
@@ -73,6 +97,62 @@
 }
 /*................ SLIDER .................*/
 /*................ SkinMedica .................*/
+<<<<<<< HEAD
+.main-div-skin-medica {
+  display: flex;
+  align-items: center;
+}
+.skinmedica-products > img {
+  width: 80%;
+}
+/*................ SkinMedica .................*/
+
+/* Shop By Category */
+.shp-main-div {
+  display: flex;
+  width: 100%;
+}
+.shp-cate > img {
+  width: 70%;
+}
+/* Shop By Category */
+
+/* Best SEller */
+.best-sell-main-div > div > img {
+  width: 90%;
+}
+
+/* Brand Featured */
+.Brand-Fe {
+  display: flex;
+  align-items: center;
+}
+.Brand-Fe > div > img {
+  width: 70%;
+}
+
+/* footer */
+.first-foot,
+.sec-foot,
+.third-foot {
+  display: flex;
+
+  justify-content: space-around;
+}
+.company-icon {
+  font-size: 27px;
+  margin-right: 12px;
+}
+.black-btn {
+  width: 50%;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+.service-icon {
+  font-size: 20px;
+}
+=======
 .imgoff{
   display: flex;
 }
@@ -97,3 +177,4 @@
   margin-right: 10px;
 }
 >>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
