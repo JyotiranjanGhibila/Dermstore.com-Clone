@@ -1,0 +1,124 @@
+/* ..............first navbar ..............*/
+* {
+  font-family: "Noto Serif", serif;
+}
+.first-nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 6%;
+}
+.search-box {
+  width: 90%;
+  height: 10px;
+  margin-top: 2px;
+  padding: 13px 90px;
+  outline: none;
+}
+.search,
+.cart,
+.account,
+.admin-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.search-btn {
+  height: 28px;
+}
+.icon {
+  font-size: 27px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+}
+/*................ first navbar .................*/
+
+/*................ second navbar .................*/
+.sec-nav {
+  display: flex;
+  align-items: center;
+  /* margin-left: 90px; */
+  justify-content: space-around;
+  border-bottom: 0.1px solid black;
+}
+.sec-nav > p:hover {
+  color: black(224, 109, 64);
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  font-style: italic;
+  font-size: larger;
+  padding-bottom: 20px;
+}
+
+/*................ second navbar .................*/
+
+/*................ SLIDER .................*/
+.slider-text {
+  color: rgb(7, 7, 7);
+}
+.slider-text-w {
+  color: white;
+}
+.color-bw {
+  color: white;
+}
+/*................ SLIDER .................*/
+/*................ SkinMedica .................*/
+.main-div-skin-medica {
+  display: flex;
+  align-items: center;
+}
+.skinmedica-products > img {
+  width: 80%;
+}
+/*................ SkinMedica .................*/
+
+/* Shop By Category */
+.shp-main-div {
+  display: flex;
+  width: 100%;
+}
+.shp-cate > img {
+  width: 70%;
+}
+/* Shop By Category */
+
+/* Best SEller */
+.best-sell-main-div > div > img {
+  width: 90%;
+}
+
+/* Brand Featured */
+.Brand-Fe {
+  display: flex;
+  align-items: center;
+}
+.Brand-Fe > div > img {
+  width: 70%;
+}
+
+/* footer */
+.first-foot,
+.sec-foot,
+.third-foot {
+  display: flex;
+
+  justify-content: space-around;
+}
+.company-icon {
+  font-size: 27px;
+  margin-right: 12px;
+}
+.black-btn {
+  width: 50%;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+.service-icon {
+  font-size: 20px;
+}
