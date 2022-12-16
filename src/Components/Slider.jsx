@@ -55,8 +55,11 @@ const Slider = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+<<<<<<< HEAD
       <h1>20% off SkinMedica</h1>
       <p>Save on formulas created by dermatologists & rooted in science.</p>
+=======
+>>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
     </div>
   );
 };
