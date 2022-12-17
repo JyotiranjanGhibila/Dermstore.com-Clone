@@ -1,0 +1,121 @@
+{
+  "skinmedica": [
+    {
+      "id": 1,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/13890001-1134997222616477.jpg",
+      "price": "₹260"
+    },
+    {
+      "id": 2,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289659-3844870996065429.jpg",
+      "price": "₹84"
+    },
+    {
+      "id": 3,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289673-4514872069791922.jpg",
+      "price": "₹140"
+    },
+    {
+      "id": 4,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12378444-2084870995827076.jpg",
+      "price": "₹499"
+    },
+    {
+      "id": 5,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12455153-5734870995929202.jpg",
+      "price": "₹279"
+    },
+    {
+      "id": 6,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289678-1494870995623922.jpg",
+      "price": "₹199"
+    },
+    {
+      "id": 7,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12596429-3594871019700125.jpg",
+      "price": "₹870"
+    },
+    {
+      "id": 8,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289678-1494870995623922.jpg",
+      "price": "₹280"
+    },
+    {
+      "id": 9,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12596429-3594871019700125.jpg",
+      "price": "₹839"
+    },
+    {
+      "id": 10,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/13180872-1214888074076647.jpg",
+      "price": "₹500"
+    },
+    {
+      "id": 11,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289683-2074871019620370.jpg",
+      "price": "₹490"
+    }
+  ],
+  "BestSeller": [
+    {
+      "id": 1,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11289609-1174892770940184.jpg",
+      "title": "SkinCeuticals C E Ferulic",
+      "price": "₹499"
+    },
+    {
+      "id": 2,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11370303-1074944341868735.jpg",
+      "title": "EltaMD UV Clear Broad-Spectrum SPF 46",
+      "price": "₹399"
+    },
+    {
+      "id": 3,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12596429-3594871019700125.jpg",
+      "title": "SkinMedica TNS Advanced+ Serum",
+      "price": "₹299"
+    },
+    {
+      "id": 4,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11429291-5004872074831463.jpg",
+      "title": "Best of Dermstore The Necessities Kit - $431 Value",
+      "price": "₹199"
+    },
+    {
+      "id": 5,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11291543-1265002181700054.jpg",
+      "title": "Obagi Medical Professional-C Serum 20",
+      "price": "₹490"
+    },
+    {
+      "id": 6,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/12664555-1704871739992403.jpg",
+      "title": "iS Clinical Active Serum",
+      "price": "₹999"
+    },
+    {
+      "id": 7,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg",
+      "title": "EltaMD UV Clear Broad-Spectrum SPF 46 - Tinted",
+      "price": "₹890"
+    },
+    {
+      "id": 8,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11370312-1044938634157826.jpg",
+      "title": "PCA SKIN Hyaluronic Acid Boosting Serum",
+      "price": "₹207"
+    },
+    {
+      "id": 9,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/10560418-1084911743073195.jpg",
+      "title": "Paula's Choice SKIN PERFECTING 2 BHA Liquid Exfoliant",
+      "price": "₹900"
+    },
+    {
+      "id": 10,
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/10560418-1514911743023953.jpg",
+      "title": "Avene Retrinal 0.1 Intensive Cream",
+      "price": "₹780"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 import Styles from "./Styles.css"
 const Slider = () => {
   return (
@@ -54,12 +55,24 @@ const Slider = () => {
             <p className="slider-text">Discover Barcelona-born, advanced skin care formulas with innovative textures for a practical & sensory experience.</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://static.thcdn.com/images/xlarge/webp/widgets/208-us/32/original-1116-STDCRE-43990-CM-DS-Q4-Batching-1920x700-074832.jpeg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            
+            <h1 className="slider-text">Forget Someone?</h1>
+            <p className="slider-text">Rewards Memberes. order by December 21st for free two-day</p>
+            <p className="slider-text">shipping & get everything under the tree on time when you spend $150 or more</p>
+            <h2>CODE: Extra94</h2>
+            <button><Link to="/nail" style={{textDecoration:"none",color:"black"}}>SHOP NOW</Link></button>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
-<<<<<<< HEAD
       <h1>20% off SkinMedica</h1>
       <p>Save on formulas created by dermatologists & rooted in science.</p>
-=======
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
     </div>
   );
 };
