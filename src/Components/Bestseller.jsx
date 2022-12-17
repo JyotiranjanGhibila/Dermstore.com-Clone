@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleLeft } from "react-icons/fa";
+
 const Bestseller = () => {
   const [bestsell, setBestSell] = useState([]);
   const [page, setPage] = useState(1);
@@ -25,8 +26,10 @@ const Bestseller = () => {
   const pageChange = (value) => {
     setPage(page + value);
   };
+
   return (
     <div>
+      
       <h3>Bestseller</h3>
       <div
         className="best-sell-main-div"
@@ -51,7 +54,7 @@ const Bestseller = () => {
         })}
         <button
           onClick={() => pageChange(1)}
-          disabled={page === 2}
+          disabled={page === 4}
           style={{ borderRadius: "20px", height: "40px" }}
         >
           <FaAngleRight />

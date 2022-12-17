@@ -1,42 +1,30 @@
-<<<<<<< HEAD
 /* ..............first navbar ..............*/
 * {
   font-family: "Noto Serif", serif;
 }
-=======
-<<<<<<< HEAD
-/* ..............first navbar ..............*/
-/*  */
-=======
->>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 .first-nav {
   width: 100%;
   height: 90px;
   display: flex;
   justify-content: space-around;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  border-bottom: 1px solid red;
->>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 }
 
 .logo {
   width: 6%;
+  
+}
+.search {
+  margin-top: 20px;
+  height: 37px;
+  border: 1px solid gray;
 }
 .search-box {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
   width: 90%;
-  height: 10px;
+
   margin-top: 2px;
-  padding: 13px 90px;
+  padding: 4px 90px;
   outline: none;
+  border: none;
 }
 .search,
 .cart,
@@ -48,12 +36,15 @@
 }
 .search-btn {
   height: 28px;
+  border: none;
+  background-color: white;
 }
 .icon {
   font-size: 27px;
   margin-right: 10px;
   margin-bottom: 11px;
 }
+
 /*................ first navbar .................*/
 
 /*................ second navbar .................*/
@@ -62,25 +53,15 @@
   align-items: center;
   /* margin-left: 90px; */
   justify-content: space-around;
-<<<<<<< HEAD
   border-bottom: 0.1px solid black;
 }
 .sec-nav > p:hover {
   color: black(224, 109, 64);
-=======
-  border-bottom: 0.1px solid gray;
-}
-.sec-nav > p:hover {
-  color: rgb(224, 109, 64);
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
   cursor: pointer;
   border-bottom: 1px solid grey;
   font-style: italic;
   font-size: larger;
-<<<<<<< HEAD
   padding-bottom: 20px;
-=======
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
 }
 
 /*................ second navbar .................*/
@@ -97,7 +78,6 @@
 }
 /*................ SLIDER .................*/
 /*................ SkinMedica .................*/
-<<<<<<< HEAD
 .main-div-skin-medica {
   display: flex;
   align-items: center;
@@ -131,13 +111,20 @@
   width: 70%;
 }
 
-/* footer */
+/* -----------footer start---------*/
 .first-foot,
 .sec-foot,
 .third-foot {
   display: flex;
 
   justify-content: space-around;
+}
+.third-foot>p{
+  text-align: left;
+}
+.fot-p>p{
+  text-align: left;
+  
 }
 .company-icon {
   font-size: 27px;
@@ -152,29 +139,61 @@
 .service-icon {
   font-size: 20px;
 }
-=======
-.imgoff{
-  display: flex;
-}
-/*................ SkinMedica .................*/
-=======
-  width: 60%;
-  height: 10px;
-  margin-top: 2px;
-  padding: 7.7px 90px;
-  outline: none;
-}
-.search,.cart,.account{
+/* -----------footer end ---------*/
+
+
+/* -----------Admin start ------------ */
+.admin-container{
+  height: 600px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(185, 179, 179, 0.5),
+      rgba(231, 226, 226, 0.5)
+    ),
+    url("https://img.freepik.com/premium-vector/dashboard-ui-admin-panel-design-template-with-infographic-elements_9209-2835.jpg?w=1380")
+    center;
+
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    justify-content: center;
 }
-.search-btn{
-  height: 28px;
+.wrapper{
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(243, 240, 214);
+  opacity: 70%;
 }
-.icon{
-  font-size: 30px;
-  margin-right: 10px;
+.Title{
+  font-size: 24px;
+  font-weight: 300;
 }
->>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
+.Form{
+  display: flex;
+  flex-direction: column;
+}
+.inp-box{
+  padding: 7px;
+}
+.sub-btn{
+  width: 30%;
+  background-color: rgb(179, 222, 247);
+  border: none;
+  border-radius: 20px;
+}
+/* -----------Admin end------------ */
+/* NailPolish */
+.main-nail{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 12px;
+}
+.main-nail>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.4s ease all;
+  /* width: 62%; */
+}
+.nail-img{
+  width: 60%;
+}
+/* NailPolish */

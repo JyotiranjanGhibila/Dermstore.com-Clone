@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="sec-foot" style={{borderTop:"1px solid grey"}}>
-        <div>
+        <div className="fot-p">
           <p>Customer Service</p>
           <p>
             <span className="service-icon">
@@ -69,8 +69,8 @@ const Footer = () => {
             Cookie Settings
           </p>
         </div>
-        <div style={{ display: "flex" ,justifyContent:"space-arround"}} >
-          <div>
+        <div style={{ display: "flex" ,justifyContent:"space-between"}} >
+          <div className="fot-p" style={{marginRight:"30px"}}>
             <p>My Account</p>
             <p>Manage My Auto-Replenishments</p>
             <p>My Rewards</p>
@@ -78,13 +78,13 @@ const Footer = () => {
             <p>Refer a Friend</p>
             <p>Order History</p>
           </div>
-          <div>
+          <div className="fot-p" style={{marginRight:"30px"}}>
             <p>Company</p>
             <p>About Us</p>
             <p>Press</p>
             <p>What is Klarna?</p>
           </div>
-          <div>
+          <div className="fot-p">
             <p>Legal</p>
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>

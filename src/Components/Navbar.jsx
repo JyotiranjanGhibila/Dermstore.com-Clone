@@ -1,33 +1,17 @@
 import React from "react";
 import Styles from "./Styles.css";
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
+import { Link } from "react-router-dom";
 import Logo from "./skin.gif";
 import { FaSearch } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
-import {FaUserCog} from "react-icons/fa"
+import { FaUserCog } from "react-icons/fa";
+
 const Navbar = () => {
   return (
     <div className="main-div">
-<<<<<<< HEAD
-=======
-=======
-import Logo from "./logo.jpg";
-import { FaSearch } from "react-icons/fa";
-import { FaCartPlus } from "react-icons/fa";
-import { FaUserCircle } from "react-icons/fa";
-
-const Navbar = () => {
-  return (
-    <div>
->>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
       <div className="first-nav">
         <img className="logo" src={Logo} alt="We Care" />
-
         <div className="search">
           <input
             type="text"
@@ -40,38 +24,29 @@ const Navbar = () => {
         </div>
         <div className="account">
           <FaUserCircle className="icon" />
-          <p>Account</p>
+          <p><Link to="/register" style={{textDecoration:"none",color:"black"}}>Account</Link></p>
         </div>
         <div className="cart">
           <FaCartPlus className="icon" />
           <p>Cart</p>
         </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
         <div className="admin-div">
-          <FaUserCog className="icon"/>
-          <p>Admin</p>
+          <FaUserCog className="icon" />
+          <Link to="/admin" style={{ textDecoration: "none", color: "black" }}>
+            <p>Admin</p>
+          </Link>
         </div>
       </div>
       <div className="sec-nav">
-        <p>Brand</p>
+        <p><Link to="/" style={{textDecoration:"none",color:"black"}}>Brand</Link></p>
         <p>Holiday Shoop</p>
         <p>Bestseller</p>
         <p>Skin Care</p>
-        <p>Makeup</p>
+        <p><Link to="/nail" style={{textDecoration:"none",color:"black"}}>MakeUp</Link></p>
         <p>Hair Care</p>
         <p>Bath & Body</p>
         <p></p>
       </div>
-<<<<<<< HEAD
-=======
-=======
-      </div>
-      <div className="sec-nav"></div>
->>>>>>> fbf1b63c7d6ccd65337a01f3558af37e29908652
->>>>>>> 689f9ee9c2714356b3b3b1094c399366366a5b2f
     </div>
   );
 };
