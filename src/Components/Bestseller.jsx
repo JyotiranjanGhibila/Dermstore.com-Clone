@@ -26,10 +26,14 @@ const Bestseller = () => {
   const pageChange = (value) => {
     setPage(page + value);
   };
+<<<<<<< HEAD
   const handleBuy=()=>{
     alert("Your Order is Deliver Soon")
     alert("Thank You For Shoping")
   }
+=======
+
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
   return (
     <div>
       
@@ -41,7 +45,11 @@ const Bestseller = () => {
         <button
           onClick={() => pageChange(-1)}
           disabled={page == 1}
+<<<<<<< HEAD
           style={{ border: "20px", height: "40px" }}
+=======
+          style={{ borderRadius: "20px", height: "40px" }}
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
         >
           <FaAngleLeft />
         </button>
@@ -50,16 +58,25 @@ const Bestseller = () => {
             <div key={el.id}>
               <img src={el.img} alt="img" />
               <p>{el.title}</p>
+<<<<<<< HEAD
               <p>{el.name}</p>
               <h4>{el.price}</h4>
               <button className="black-btn" onClick={handleBuy}>QUICK BUY</button>
+=======
+              <h4>{el.price}</h4>
+              <button className="black-btn">QUICK BUY</button>
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
             </div>
           );
         })}
         <button
           onClick={() => pageChange(1)}
           disabled={page === 4}
+<<<<<<< HEAD
           style={{ border: "20px", height: "40px" }}
+=======
+          style={{ borderRadius: "20px", height: "40px" }}
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
         >
           <FaAngleRight />
         </button>

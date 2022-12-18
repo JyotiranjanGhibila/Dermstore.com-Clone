@@ -32,7 +32,11 @@ const Navbar = () => {
         </div>
         <div className="admin-div">
           <FaUserCog className="icon" />
+<<<<<<< HEAD
           <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
+=======
+          <Link to="/admin" style={{ textDecoration: "none", color: "black" }}>
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
             <p>Admin</p>
           </Link>
         </div>
