@@ -1,30 +1,228 @@
+/* ..............first navbar ..............*/
+* {
+  font-family: "Noto Serif", serif;
+}
 .first-nav {
   width: 100%;
   height: 90px;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid red;
 }
 
 .logo {
   width: 6%;
+  
+}
+.search {
+  margin-top: 20px;
+  height: 37px;
+  border: 1px solid gray;
 }
 .search-box {
-  width: 60%;
-  height: 10px;
+  width: 90%;
+
   margin-top: 2px;
-  padding: 7.7px 90px;
+  padding: 4px 90px;
   outline: none;
+  border: none;
 }
-.search,.cart,.account{
+.search,
+.cart,
+.account,
+.admin-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.search-btn {
+  height: 28px;
+  border: none;
+  background-color: white;
+}
+.icon {
+  font-size: 27px;
+  margin-right: 10px;
+  margin-bottom: 11px;
+}
+
+/*................ first navbar .................*/
+
+/*................ second navbar .................*/
+.sec-nav {
+  display: flex;
+  align-items: center;
+  /* margin-left: 90px; */
+  justify-content: space-around;
+  border-bottom: 0.1px solid black;
+}
+.sec-nav > p:hover {
+  color: black(224, 109, 64);
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  font-style: italic;
+  font-size: larger;
+  padding-bottom: 20px;
+}
+
+/*................ second navbar .................*/
+
+/*................ SLIDER .................*/
+.slider-text {
+  color: rgb(7, 7, 7);
+}
+.slider-text-w {
+  color: white;
+}
+.color-bw {
+  color: white;
+}
+/*................ SLIDER .................*/
+/*................ SkinMedica .................*/
+.main-div-skin-medica {
+  display: flex;
+  align-items: center;
+}
+.skinmedica-products > img {
+  width: 80%;
+}
+/*................ SkinMedica .................*/
+
+/* Shop By Category */
+.shp-main-div {
+  display: flex;
+  width: 100%;
+}
+.shp-cate > img {
+  width: 70%;
+}
+/* Shop By Category */
+
+/* Best SEller */
+.best-sell-main-div > div > img {
+  width: 90%;
+}
+
+/* Brand Featured */
+.Brand-Fe {
+  display: flex;
+  align-items: center;
+}
+.Brand-Fe > div > img {
+  width: 70%;
+}
+
+/* -----------footer start---------*/
+.first-foot,
+.sec-foot,
+.third-foot {
+  display: flex;
+
+  justify-content: space-around;
+}
+.third-foot>p{
+  text-align: left;
+}
+.fot-p>p{
+  text-align: left;
+  
+}
+.company-icon {
+  font-size: 27px;
+  margin-right: 12px;
+}
+.black-btn {
+  width: 50%;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+.service-icon {
+  font-size: 20px;
+}
+/* -----------footer end ---------*/
+
+
+/* -----------Admin start ------------ */
+.admin-container{
+  height: 600px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(185, 179, 179, 0.5),
+      rgba(231, 226, 226, 0.5)
+    ),
+    url("https://img.freepik.com/premium-vector/dashboard-ui-admin-panel-design-template-with-infographic-elements_9209-2835.jpg?w=1380")
+    center;
+
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    justify-content: center;
 }
-.search-btn{
-  height: 28px;
+.wrapper{
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(243, 240, 214);
+  opacity: 70%;
 }
-.icon{
-  font-size: 30px;
-  margin-right: 10px;
+.Title{
+  font-size: 24px;
+  font-weight: 300;
+}
+.Form{
+  display: flex;
+  flex-direction: column;
+}
+.inp-box{
+  padding: 7px;
+}
+.sub-btn{
+  width: 30%;
+  background-color: rgb(179, 222, 247);
+  border: none;
+  border-radius: 20px;
+}
+/* -----------Admin end------------ */
+/* NailPolish */
+.main-nail{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 12px;
+}
+.main-nail>div:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.4s ease all;
+  /* width: 62%; */
+}
+.nail-img{
+  width: 60%;
+}
+/* NailPolish */
+
+/* AuthContext */
+.logout-btn{
+  width: 30%;
+  margin-top: 20px;
+  background-color: rgb(223, 86, 86);
+  border: none;
+  border-radius: 20px;
+}
+.login-page{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(165, 165, 165, 0.5),
+      rgba(167, 163, 163, 0.5)
+    ),
+    url("https://img.freepik.com/premium-vector/online-registration-sign-up-login-account-smartphone-app-user-interface-with-secure-password-mobile-application-ui-web-banner-access-cartoon-people-vector-illustration_2175-1078.jpg?w=996")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperl{
+  width: 40%;
+  padding: 20px;
+  /* background-color: whitesmoke; */
+  opacity: 70%;
 }
